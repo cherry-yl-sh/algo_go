@@ -25,3 +25,6 @@ func TestSubSetS(t *testing.T) {
 	fmt.Println(res)
 
 }
+func TestLRU(t *testing.T) {
+
+}
