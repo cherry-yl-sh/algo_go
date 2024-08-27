@@ -35,3 +35,12 @@ func TestCanJump(t *testing.T) {
 	res := canJump(input)
 	fmt.Println(res)
 }
+
+func TestF(t *testing.T) {
+	grid := [][]byte{{'1'}}
+	dfs1(grid)
+	fmt.Println(grid)
+}
+func dfs1(grid [][]byte) {
+
+}
