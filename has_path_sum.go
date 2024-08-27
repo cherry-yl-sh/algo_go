@@ -6,6 +6,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// https://leetcode.cn/problems/path-sum/description/
 func hasPathSum(root *TreeNode, targetSum int) bool {
 	nodeQue := []*TreeNode{root}
 	nodeValQue := []int{root.Val}
@@ -38,4 +39,10 @@ func hasPathSum(root *TreeNode, targetSum int) bool {
 
 	}
 	return false
+}
+
+// https://leetcode.cn/problems/path-sum/description/
+
+func pathSum(root *TreeNode, targetSum int) [][]int {
+	return nil
 }
