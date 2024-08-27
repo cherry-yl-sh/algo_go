@@ -37,10 +37,7 @@ func TestCanJump(t *testing.T) {
 }
 
 func TestF(t *testing.T) {
-	grid := [][]byte{{'1'}}
-	dfs1(grid)
-	fmt.Println(grid)
-}
-func dfs1(grid [][]byte) {
-
+	que := []int{1, 2, 3}
+	que = que[1:]
+	fmt.Println(que)
 }
