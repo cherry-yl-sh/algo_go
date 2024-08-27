@@ -26,5 +26,12 @@ func TestSubSetS(t *testing.T) {
 
 }
 func TestLRU(t *testing.T) {
+	s := "abc"
+	fmt.Printf("%c\n", s[1])
+}
 
+func TestCanJump(t *testing.T) {
+	input := []int{0}
+	res := canJump(input)
+	fmt.Println(res)
 }
